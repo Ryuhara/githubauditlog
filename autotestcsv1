@@ -1,0 +1,13 @@
+import urllib.parse
+import sys
+
+args = sys.argv
+
+# URLデコード
+decode_str = urllib.parse.unquote_plus(args[1])
+
+# 文字コード不一致回避(エラー内容は後述)
+before = decode_str.encode('cp932', "ignore")
+after = before.decode('cp932')
+
+# Automateへ値受け
