@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell トランスクリプト開始
+開始時刻: 20240722205817
+ユーザー名: AVANADE-CORP\SYSTEM
+RunAs ユーザー: AVANADE-CORP\SYSTEM
+構成名: 
+コンピューター: WINAPNJ6QYEITBU (Microsoft Windows NT 10.0.22631.0)
+ホスト アプリケーション: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -executionPolicy bypass -file C:\WINDOWS\IMECache\HealthScripts\050501c7-a150-4240-8dd3-389546fe1284_20\detect.ps1
+プロセス ID: 18848
+PSVersion: 5.1.22621.3880
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3880
+BuildVersion: 10.0.22621.3880
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+トランスクリプトが開始されました。出力ファイル: C:\WINDOWS\Logs\BT_detection.log
+###############START###############
+[07/22/2024 20:58:17]
+[DETECT_SCRIPT][Successfully completed running detection script],  Could not retrieve username(blank),Got User via attempt #2:AVANADE-CORP\ryuta.a.harada,GotUser=True,The current username(ryuta.a.harada) starts with 'AVANADE-CORP\',IsUserRightFormat=True,USERS IN ADMIN: [WINAPNJ6QYEITBU/Administrator AVANADE-CORP/Domain Admins],Replaced \ with / in AVANADE-CORP\ryuta.a.harada,To check MATCHH:AVANADE-CORP/ryuta.a.harada;AvaUser:AVANADE-CORP\ryuta.a.harada,No such match in administrators: WINAPNJ6QYEITBU/Administrator,No such match in administrators: AVANADE-CORP/Domain Admins,IsUserAdmin=False,Able to retrieve Username and its the correct format, proceedingto next steps.,BT is already installed with correct version:22.9.268.0,IsInstalled=True,Hyper-V not found,IsHyperV=False,# Add the current user to AvectoUsers group,Group 'AvectoUsers' already exists.,User 'AVANADE-CORP\ryuta.a.harada' is already a member of group 'AvectoUsers'.,# Remove the current user from Users group,User 'AVANADE-CORP\ryuta.a.harada' not a member of group 'Users'.,Registry key 'PolicyEnabled' with the correct value already exists.,
+[07/22/2024 20:58:27]
+###############END###############
+**********************
+Windows PowerShell トランスクリプト終了
+終了時刻: 20240722205827
+**********************
