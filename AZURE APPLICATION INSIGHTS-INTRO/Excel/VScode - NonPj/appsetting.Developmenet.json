@@ -1,0 +1,12 @@
+{
+    "Logging":{
+        "LogLevel":{
+            "Default":"Debug",
+            "System":"Information",
+            "Microsoft":"Information"
+        }
+    },
+    "ApplicationInsights":{
+        "InstrumentationKey":"<InstrumentationKey=63e29477-9ba8-470d-8d66-ca9a2a9015a2;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=89dcef54-22da-40ae-805d-b61031abd1d7>"
+    }
+}
